@@ -6,6 +6,6 @@ const authorSchema = new mongoose.Schema({
     birthYear: { type: Number, required: true }
 });
 
-const Author =  mongoose.model('Author', authorSchema);
+const Authors =  mongoose.model('Author', authorSchema);
 
-module.exports = Author
+module.exports = Authors
